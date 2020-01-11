@@ -17,7 +17,7 @@ const Footer = () => {
 
         <footer className="mt-12 text-center text-xl">
 
-        <p className="text-gray-500">&copy; {data.site.siteMetadata.author} 2019</p>
+        <p className="text-gray-500">&copy; {data.site.siteMetadata.author} 2019-2020</p>
 
         </footer>
 

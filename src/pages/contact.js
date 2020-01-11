@@ -57,8 +57,6 @@ const BlogIndex = () => {
                   <p></p>
           <div className="bg-gray-300 rounded-lg p-6 ">
           <p>The best way to get in touch would be to email me at <a className="text-blue-800 font-bold" href="mailto:levkropp@protonmail.com">levkropp@protonmail.com</a></p>
-          <p>If you're interested, you can encrypt your message using 
-              <a href={publicKeyFile.node.publicURL} download className="text-green-800 font-bold"> my public PGP key</a></p>
           <p>If I create any social media accounts or something else, they'll show up here!</p>
           </div>
       </Layout>

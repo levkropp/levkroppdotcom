@@ -52,9 +52,9 @@ const Header = () => {
             <Link
               className={navItemStyle}
               activeClassName={navItemStyleActive}
-              to="/about"
+              to="/projects"
             >
-              About
+              Projects
             </Link>
           </li>
           <li>
