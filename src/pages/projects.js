@@ -20,7 +20,7 @@ const BlogIndex = () => {
 
       <Layout>
           
-          <TitleComponent title="About | Lev Kropp" />
+          <TitleComponent title="Projects | Lev Kropp" />
           
           <div className="bg-gray-300 rounded-lg p-6"> 
             <h1>My Projects</h1>
