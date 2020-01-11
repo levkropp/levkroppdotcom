@@ -56,7 +56,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lev Kropp Blog`,
+        name: `Lev Kropp`,
         short_name: `levkropp.com`,
         start_url: `/`,
         background_color: `#2d3748`,
