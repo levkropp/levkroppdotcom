@@ -60,7 +60,7 @@ module.exports = {
         short_name: `levkropp.com`,
         start_url: `/`,
         background_color: `#2d3748`,
-        theme_color: `#663399`,
+        theme_color: `#2d3748`,
         display: `minimal-ui`,
         icon: `content/assets/levicon.png`,
       },
