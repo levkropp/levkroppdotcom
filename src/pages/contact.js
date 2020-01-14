@@ -1,52 +1,16 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 import {TitleComponent} from "../components/title"
 
 const BlogIndex = () => {
 
 
-  const data = useStaticQuery(graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
-    }
-    allFile(filter: { extension: { eq: "asc" } }) {
-      edges {
-        node {
-          publicURL
-          name
-        }
-      }
-    }
-  }
-`)
 
     //const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-
-    const publicKeyFile = data.allFile.edges[0]
+    // const siteTitle = data.site.siteMetadata.title
+    // const posts = data.allMarkdownRemark.edges
 
     return (
 

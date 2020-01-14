@@ -3,7 +3,6 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 import {TitleComponent} from "../components/title"
 
@@ -36,7 +35,7 @@ const BlogIndex = () => {
 `)
 
     //const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    // const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
 
     return (

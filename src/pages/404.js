@@ -8,8 +8,6 @@ import {TitleComponent} from "../components/title"
 
 class NotFoundPage extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
 
     return (
       <Layout>
